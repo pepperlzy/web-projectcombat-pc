@@ -1,0 +1,34 @@
+/* 自定义网站字体 */
+@font-face {
+    font-family: "PingFangSCRegular";
+    src: url(../fonts/PingFangSCRegular.ttf) format('truetype');
+}
+/* 文本具有继承性 */
+body{
+    font: 14px/1.5 "PingFangSCRegular",Arial, "微软雅黑";
+    color: #333;
+    min-width: 1226px;
+    background-color: #fff;
+}
+.container{
+    width: 1226px;
+    margin: 0 auto;
+    
+}
+.clearfix{
+    /* overflow: hidden; */
+}
+.clearfix::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.db{
+    display: block;
+}
+.dib{
+    display: inline-block;
+}
+.tac{
+    text-align: center;
+}
